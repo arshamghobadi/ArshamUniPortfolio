@@ -28,3 +28,14 @@ a {
   align-items: center;
   gap: 30px;
 }
+
+.page-links,
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links {
+  border-left: 1px solid #334155;
+  padding-left: 30px;
+}
