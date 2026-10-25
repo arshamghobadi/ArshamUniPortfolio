@@ -9,3 +9,10 @@ body {
 a {
   color: #5eead4;
 }
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #334155;
+}
