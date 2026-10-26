@@ -114,3 +114,34 @@ a {
   font-size: 18px;
   color: #cbd5e1;
 }
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+.project {
+  padding: 25px;
+  background-color: #1e293b;
+  border-radius: 15px;
+}
+.project-image {
+  display: block;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.project h2 {
+  margin: 20px 0 10px;
+}
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.project-description {
+  color: #cbd5e1;
+}
