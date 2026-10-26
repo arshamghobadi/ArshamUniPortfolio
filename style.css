@@ -70,3 +70,24 @@ a {
   height: auto;
   border-radius: 20px;
 }
+.interests {
+  padding: 30px 40px;
+  border-top: 1px solid #334155;
+  text-align: center;
+}
+.interests h2 {
+  font-size: 24px;
+  margin: 0 0 100px;
+}
+.interest-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.interest h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #5eead4;
+  margin: 0;
+}
